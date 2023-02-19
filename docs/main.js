@@ -198,7 +198,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 37, vars: 5, consts: [["fxLayout", "row wrap", "fxLayoutGap", "20px"], ["fxFlex", "", 1, "grade-form"], [1, "mat-elevation-z8"], ["fxLayout", "column", "fxLayoutGap", "16px", 3, "formGroup", "ngSubmit"], ["fxFlex", "", "appearance", "fill"], ["type", "text", "name", "txtCourse", "required", "", "id", "txtCourse", "matInput", "", "formControlName", "course"], ["formControlName", "grade", "required", "", "name", "selectGrade"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "submit", "mat-raised-button", "", "color", "primary", 3, "disabled"], ["fxFlex", "", 1, "grade-summary"], ["mat-button", "", "color", "primary", 3, "click"], [3, "course", "grade", 4, "ngFor", "ngForOf"], ["fxLayout", "column", "fxLayoutGap", "20px"], ["fxFlex", "", 1, "gpa"], [2, "text-align", "center"], [3, "gpaTotal"], [3, "value"], [3, "course", "grade"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 36, vars: 5, consts: [["fxLayout", "row wrap", "fxLayoutGap", "20px"], ["fxFlex", "", 1, "grade-form"], [1, "mat-elevation-z8"], ["fxLayout", "column", "fxLayoutGap", "16px", 3, "formGroup", "ngSubmit"], ["fxFlex", "", "appearance", "fill"], ["type", "text", "name", "txtCourse", "required", "", "id", "txtCourse", "matInput", "", "formControlName", "course"], ["formControlName", "grade", "required", "", "name", "selectGrade"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "submit", "mat-raised-button", "", "color", "primary", 3, "disabled"], ["fxFlex", "", 1, "grade-summary"], ["mat-button", "", "color", "primary", 3, "click"], [3, "course", "grade", 4, "ngFor", "ngForOf"], ["fxLayout", "column", "fxLayoutGap", "20px"], ["fxFlex", "", 1, "gpa"], [2, "text-align", "center"], [3, "gpaTotal"], [3, "value"], [3, "course", "grade"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card", 2);
@@ -246,17 +246,16 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "v\n");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "button", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_Template_button_click_31_listener() { return ctx.calculateResults(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Calculate GPA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "button", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_Template_button_click_30_listener() { return ctx.calculateResults(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Calculate GPA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "mat-card", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "mat-card-title", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " GPA: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "app-gpa", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "mat-card", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "mat-card-title", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " GPA: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "app-gpa", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -270,7 +269,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", !ctx.transcriptForm.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.transcriptEntries);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("gpaTotal", ctx.gpaTotal);
     } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_2__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_2__["DefaultLayoutGapDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_2__["DefaultFlexDirective"], _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_3__["MatCardContent"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_4__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_4__["MatLabel"], _angular_material_input__WEBPACK_IMPORTED_MODULE_5__["MatInput"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["RequiredValidator"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_material_select__WEBPACK_IMPORTED_MODULE_6__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _angular_material_button__WEBPACK_IMPORTED_MODULE_8__["MatButton"], _gpa_gpa_component__WEBPACK_IMPORTED_MODULE_9__["GpaComponent"], _angular_material_core__WEBPACK_IMPORTED_MODULE_10__["MatOption"], _grade_summary_grade_summary_component__WEBPACK_IMPORTED_MODULE_11__["GradeSummaryComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Q0FPQyIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLypcclxuPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cclxuOyBUaXRsZTogaG9tZS5jb21wb25lbnQuY3NzIGZvciBncGEtY2FsY3VsYXRvci1hcHBcclxuOyBBdXRob3I6IENoYWQgT05lYWxcclxuOyBEYXRlOiAwMi8wOS8yMDIzXHJcbjsgRGVzY3JpcHRpb246IGhvbWUuY29tcG9uZW50LmNzcyBmb3IgZ3BhLWNhbGN1bGF0b3ItYXBwXHJcbj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cclxuKi9cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
