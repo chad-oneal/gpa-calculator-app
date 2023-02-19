@@ -1,0 +1,30 @@
+/*
+============================================
+; Title: sign-in.component.css for gpa-calculator-app
+; Author: Chad ONeal
+; Date: 02/17/2023
+; Description: sign-in.component.css for gpa-calculator-app
+===========================================
+*/
+
+/* styles for container
+*/
+.signin-container {
+  width: 35%;
+  margin: 15% auto;
+}
+
+/* centers the mat-card-title
+*/
+.signin-container > mat-card-title, mat-card-subtitle {
+  text-align: center;
+}
+
+/* error message styling
+*/
+.msg-error {
+  margin: 10px 0px;
+  padding: 12px;
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
